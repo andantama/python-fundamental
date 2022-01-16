@@ -14,10 +14,16 @@ print("Andi pergi ke toko dan mulai berbelanja.")
 
 # Percabangan
 jumlah_botol_susu = 100
+jumlah_telur = 0
+print(f"jumlah botol susu {jumlah_botol_susu} botol")
+print(f"jumlah telur {jumlah_telur} butir")
 
 if jumlah_botol_susu > 0:
     print("Andi cek harga susu, dan uangnya cukup.")
-    print("Andi membeli 1 botol susu.")
+    if jumlah_telur == 0:
+        print("Andi membeli 1 botol susu.")
+    else:
+        print("Andi membeli 6 botol susu")
 else:
     print("Andi tidak jadi membeli susu")
 
