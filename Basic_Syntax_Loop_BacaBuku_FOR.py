@@ -11,4 +11,5 @@ print(f"Jumlah buku yang sudah dibaca {jumlah_buku_dibaca}")
 for jumlah_buku_dibaca in range(1, jumlah_buku+1):
     print(f"Buku ke {jumlah_buku_dibaca} sudah dibaca")
 
-print(f"Jumlah buku yang sudah dibaca saat ini adalah {jumlah_buku_dibaca}")
+print(f"Total buku yang sudah dibaca {jumlah_buku_dibaca} buku")
+
