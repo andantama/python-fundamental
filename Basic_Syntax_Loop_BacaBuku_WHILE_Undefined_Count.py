@@ -2,21 +2,24 @@
 Program Perulangan Baca Buku Sampai Paham dengan WHILE
 """
 
-jumlah_buku = 10
-print('Ibu berkata, "Baca semua buku sampai paham.')
+book_count = 10
+print('Mom asked, "Go read and comprehend all books you have."')
 
-total_jumlah_baca = 0
+total_read = 0
 
-jumlah_buku_dibaca_dipahami = 0
-print(f"jumlah buku yang telah dibaca dan dipahami {jumlah_buku_dibaca_dipahami}.")
+total_comprehended = 0
+print(f"Total books have been read and comprehended {total_comprehended}.")
 
-while total_jumlah_baca < jumlah_buku * 2:
-    total_jumlah_baca = total_jumlah_baca + 1
-    if jumlah_buku_dibaca_dipahami == 9:
-        print(f"Buku ke {jumlah_buku_dibaca_dipahami + 1} belum paham.")
+while total_read < book_count * 2:
+    total_read = total_read + 1
+    if total_comprehended == 9:
+        print(f"Book number {total_comprehended + 1} wasn't comprehended yet.")
     else:
-        jumlah_buku_dibaca_dipahami = jumlah_buku_dibaca_dipahami + 1
-        print(f"Buku ke {jumlah_buku_dibaca_dipahami} telah dibaca dan dipahami.")
+        total_comprehended = total_comprehended + 1
+        print(f"Book number {total_comprehended} has been read and comprehended.")
 
-print(f"Total buku yang telah dibaca dan dipahami {jumlah_buku_dibaca_dipahami}.")
-
+print(f"Total books have been read and comprehended {total_comprehended}.")
+if total_comprehended == book_count:
+    print('"Mom, I have already read and comprehend all books content."')
+else:
+    print(f'"Mom, I can not comprehend all the books. I just comprehend with the {total_comprehended} books."')
