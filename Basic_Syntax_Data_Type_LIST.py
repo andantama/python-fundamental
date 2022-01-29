@@ -46,3 +46,5 @@ print('\n>> pop function 02 <<')
 book_list.pop(-3)
 for k in range(0, len(book_list)):
     print(book_list[k])
+
+print('\nGo to next chapter of List Comprehension')
