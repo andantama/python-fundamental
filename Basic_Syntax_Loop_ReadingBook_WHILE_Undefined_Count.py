@@ -1,5 +1,5 @@
 """
-LOOP Program Book Reading and Comprehendin using WHILE
+LOOP Program Book Reading and Comprehension using WHILE
 """
 
 book_count = 10
