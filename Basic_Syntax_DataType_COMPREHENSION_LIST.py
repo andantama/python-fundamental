@@ -42,5 +42,3 @@ for i in range(0, len(new_book_list)):
 print('\n>> New Book List with Comprehension START STEP (Alternative w/o New Variable) <<')
 book_list = ["Seven Habits", "How to Influence People", "Second Chance", "Donald Duck", "National History"]
 print(book_list[1:-1:2])
-
-
