@@ -10,6 +10,13 @@ users = {
         "zipcode": "92998-3874",
     }
 }
-
 print(users)
-print(users["username"])
+print(users["email"])
+
+print("\nUbah DICT ke JSON")
+import json
+result = json.dumps(users)
+print(result)
+
+with open("result.json", "w") as file:
+    json.dump(users, file)
